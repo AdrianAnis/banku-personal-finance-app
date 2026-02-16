@@ -6,6 +6,7 @@ abstract class Routes {
   static const SPLASH = _Paths.SPLASH;
   static const DASHBOARD = _Paths.DASHBOARD;
   static const SET_BUDGET = _Paths.SET_BUDGET;
+  static const ADD_TRANSACTION = _Paths.ADD_TRANSACTION;
 }
 
 abstract class _Paths {
@@ -13,4 +14,5 @@ abstract class _Paths {
   static const SPLASH = '/splash';
   static const DASHBOARD = '/dashboard';
   static const SET_BUDGET = '/set-budget';
+  static const ADD_TRANSACTION = '/add-transaction';
 }
