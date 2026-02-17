@@ -7,6 +7,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
   await Hive.openBox('budgetBox');
+  await Hive.openBox('transactionBox');
   runApp(const MyApp());
 }
 
@@ -19,7 +20,6 @@ class MyApp extends StatelessWidget {
       title: "BanKu",
       initialRoute: Routes.SPLASH,
       getPages: AppPages.routes,
-      
     );
   }
 }
